@@ -2,7 +2,7 @@
 
 ## :memo: Description
 <p> Hello guys ! 🚀<br/>
-  This is a Pokedex Open Source project using the <a href="PokeApi.co">PokeApi</a>
+  This is a Pokedex Open Source project using the <a href="https://pokeapi.co/">PokeApi</a>
   
   Here are the first images of figma project.<br>
   This is the first week of project and we have some ideas to make it happen !
