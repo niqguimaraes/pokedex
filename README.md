@@ -22,6 +22,7 @@
 <h4>Develop Mobile Version</h4>
 :heavy_check_mark: Figma design creation<br>
 :heavy_check_mark: CSS styles for backgrounds and cards<br>
-:black_square_button: Layout structure<br>
-:black_square_button: Card page creation<br>
+:heavy_check_mark: Layout structure of Card page<br>
+:heavy_check_mark: Card page creation<br>
+:black_square_button: Layout structure of Datails page<br>
 :black_square_button: Details page creation<br>
