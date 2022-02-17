@@ -26,3 +26,4 @@
 :heavy_check_mark: Card page creation<br>
 :black_square_button: Layout structure of Datails page<br>
 :black_square_button: Details page creation<br>
+:black_square_button: Create Dark mode view<br>
