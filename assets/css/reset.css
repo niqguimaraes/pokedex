@@ -1,0 +1,21 @@
+:root{
+    --primary-color:#05373f;
+    --secundary-color: #23957A;
+    --link-active: #F9F871;
+    --degrade-primary: rgba(167, 219, 116, 0.75);
+    --degrade-secundary: rgba(0, 178, 255, 0.75);
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
