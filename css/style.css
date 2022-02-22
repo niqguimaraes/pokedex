@@ -131,9 +131,38 @@ body {
     background: var(--fire);
 }
 
+<<<<<<< Updated upstream:css/style.css
+=======
+/* INDEX */
+
+.index {
+    background: var(--fire);
+    background-repeat: no-repeat;
+}
+
+.text {
+    word-break: break-word;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.circle {
+    width: 200%;
+    height: 100%;
+    left: -50%;
+    top: 65%;
+    background-color: #fff;
+    border-radius: 50% 50% 0 0;
+}
+>>>>>>> Stashed changes:assets/css/style.css
 
 /* BREAK POINTS */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .circle {
+        top: 60%;
+    }
+}
 
 @media (min-width: 768px) {
     .card {
