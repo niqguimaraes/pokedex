@@ -1,159 +1,189 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/720488bb1e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/720488bb1e.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Pokedex</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="pb-2 pt-3">
-            <div class="position-relative">
-                <input class="form-control search" type="search" placeholder="Search...">
-                <button class="search-btn border-0 position-absolute">
-                    <i class="fas fa-search"></i>
-                </button>
+      <header class="pb-2 pt-3">
+        <div class="position-relative">
+          <input
+            class="form-control search"
+            type="search"
+            placeholder="Search..."
+          />
+          <button class="search-btn border-0 position-absolute">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </header>
+      <section class="d-flex flex-wrap justify-content-between">
+        <!-- INÍCIO DO CARD -->
+        <div class="card card-grass p-1 mb-2">
+          <div class="p-2 d-flex align-items-center">
+            <div class="col d-flex flex-column">
+              <div>#001</div>
+              <h4>Bulbassaur</h4>
+              <div class="btn btn-type btn-grass">
+                <i class="fa-solid fa-leaf"></i> Grass
+              </div>
+              <div class="btn btn-type btn-poison">
+                <i class="fa-solid fa-skull-crossbones"></i> Poison
+              </div>
             </div>
-        </header>
-        <section class="d-flex flex-wrap justify-content-between">
-            <!-- INÍCIO DO CARD -->
-            <div class="card card-grass p-1 mb-2">
-                <div class="p-2 d-flex align-items-center">
-                    <div class="col d-flex flex-column">
-                        <div>#001</div>
-                        <h4>Bulbassaur</h4>
-                        <div class="btn btn-type btn-grass">
-                            <i class="fa-solid fa-leaf"></i> Grass
-                        </div>
-                        <div class="btn btn-type btn-poison">
-                            <i class="fa-solid fa-skull-crossbones"></i> Poison
-                        </div>
-                    </div>
-                    <div class="col d-flex">
-                        <img class="img-fluid"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png">
-                    </div>
-                </div>
+            <div class="col d-flex">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+              />
             </div>
-            <!-- FINAL DO CARD -->
-            <!-- INÍCIO DO CARD -->
-            <div class="card card-grass p-1 mb-2">
-                <div class="p-2 d-flex align-items-center">
-                    <div class="col d-flex flex-column">
-                        <div>#002</div>
-                        <h4>Ivysaur</h4>
-                        <div class="btn btn-type btn-grass">
-                            <i class="fa-solid fa-leaf"></i> Grass
-                        </div>
-                        <div class="btn btn-type btn-poison">
-                            <i class="fa-solid fa-skull-crossbones"></i> Poison
-                        </div>
-                    </div>
-                    <div class="col d-flex">
-                        <img class="img-fluid"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png">
-                    </div>
-                </div>
+          </div>
+        </div>
+        <!-- FINAL DO CARD -->
+        <!-- INÍCIO DO CARD -->
+        <div class="card card-grass p-1 mb-2">
+          <div class="p-2 d-flex align-items-center">
+            <div class="col d-flex flex-column">
+              <div>#002</div>
+              <h4>Ivysaur</h4>
+              <div class="btn btn-type btn-grass">
+                <i class="fa-solid fa-leaf"></i> Grass
+              </div>
+              <div class="btn btn-type btn-poison">
+                <i class="fa-solid fa-skull-crossbones"></i> Poison
+              </div>
             </div>
-            <!-- FINAL DO CARD -->
-            <!-- INÍCIO DO CARD -->
-            <div class="card card-grass p-1 mb-2">
-                <div class="p-2 d-flex align-items-center">
-                    <div class="col d-flex flex-column">
-                        <div>#003</div>
-                        <h4>Venosaur</h4>
-                        <div class="btn btn-type btn-grass">
-                            <i class="fa-solid fa-leaf"></i> Grass
-                        </div>
-                        <div class="btn btn-type btn-poison">
-                            <i class="fa-solid fa-skull-crossbones"></i> Poison
-                        </div>
-                    </div>
-                    <div class="col d-flex">
-                        <img class="img-fluid"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png">
-                    </div>
-                </div>
+            <div class="col d-flex">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+              />
             </div>
-            <!-- FINAL DO CARD -->
-            <!-- INÍCIO DO CARD -->
-            <div class="card card-fire p-1 mb-2">
-                <div class="p-2 d-flex align-items-center">
-                    <div class="col d-flex flex-column">
-                        <div>#004</div>
-                        <h4>Charmander</h4>
-                        <div class="btn btn-type btn-fire">
-                            <i class="fa-solid fa-fire"></i> Fire
-                        </div>
-                    </div>
-                    <div class="col d-flex">
-                        <img class="img-fluid"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png">
-                    </div>
-                </div>
+          </div>
+        </div>
+        <!-- FINAL DO CARD -->
+        <!-- INÍCIO DO CARD -->
+        <div class="card card-grass p-1 mb-2">
+          <div class="p-2 d-flex align-items-center">
+            <div class="col d-flex flex-column">
+              <div>#003</div>
+              <h4>Venosaur</h4>
+              <div class="btn btn-type btn-grass">
+                <i class="fa-solid fa-leaf"></i> Grass
+              </div>
+              <div class="btn btn-type btn-poison">
+                <i class="fa-solid fa-skull-crossbones"></i> Poison
+              </div>
             </div>
-            <!-- FINAL DO CARD -->
-            <!-- INÍCIO DO CARD -->
-            <div class="card card-fire p-1 mb-2">
-                <div class="p-2 d-flex align-items-center">
-                    <div class="col d-flex flex-column">
-                        <div>#005</div>
-                        <h4>Charmilion</h4>
-                        <div class="btn btn-type btn-fire">
-                            <i class="fa-solid fa-fire"></i> Fire
-                        </div>
-                    </div>
-                    <div class="col d-flex">
-                        <img class="img-fluid"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png">
-                    </div>
-                </div>
+            <div class="col d-flex">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+              />
             </div>
-            <!-- FINAL DO CARD -->
-            <!-- INÍCIO DO CARD -->
-            <div class="card card-fire p-1 mb-2">
-                <div class="p-2 d-flex align-items-center">
-                    <div class="col d-flex flex-column">
-                        <div>#006</div>
-                        <h4>Charizard</h4>
-                        <div class="btn btn-type btn-fire">
-                            <i class="fa-solid fa-fire"></i> Fire
-                        </div>
-                    </div>
-                    <div class="col d-flex">
-                        <img class="img-fluid"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png">
-                    </div>
-                </div>
+          </div>
+        </div>
+        <!-- FINAL DO CARD -->
+        <!-- INÍCIO DO CARD -->
+        <div class="card card-fire p-1 mb-2">
+          <div class="p-2 d-flex align-items-center">
+            <div class="col d-flex flex-column">
+              <div>#004</div>
+              <h4>Charmander</h4>
+              <div class="btn btn-type btn-fire">
+                <i class="fa-solid fa-fire"></i> Fire
+              </div>
             </div>
-            <!-- FINAL DO CARD -->
-        </section>
+            <div class="col d-flex">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FINAL DO CARD -->
+        <!-- INÍCIO DO CARD -->
+        <div class="card card-fire p-1 mb-2">
+          <div class="p-2 d-flex align-items-center">
+            <div class="col d-flex flex-column">
+              <div>#005</div>
+              <h4>Charmilion</h4>
+              <div class="btn btn-type btn-fire">
+                <i class="fa-solid fa-fire"></i> Fire
+              </div>
+            </div>
+            <div class="col d-flex">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FINAL DO CARD -->
+        <!-- INÍCIO DO CARD -->
+        <div class="card card-fire p-1 mb-2">
+          <div class="p-2 d-flex align-items-center">
+            <div class="col d-flex flex-column">
+              <div>#006</div>
+              <h4>Charizard</h4>
+              <div class="btn btn-type btn-fire">
+                <i class="fa-solid fa-fire"></i> Fire
+              </div>
+            </div>
+            <div class="col d-flex">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- FINAL DO CARD -->
+      </section>
     </div>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
