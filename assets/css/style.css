@@ -131,8 +131,6 @@ body {
     background: var(--fire);
 }
 
-<<<<<<< Updated upstream:css/style.css
-=======
 /* INDEX */
 
 .index {
@@ -155,7 +153,6 @@ body {
     background-color: #fff;
     border-radius: 50% 50% 0 0;
 }
->>>>>>> Stashed changes:assets/css/style.css
 
 /* BREAK POINTS */
 @media (min-width: 576px) {
