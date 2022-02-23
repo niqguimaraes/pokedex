@@ -155,6 +155,36 @@ body {
     border-radius: 50% 50% 0 0;
 }
 
+/* DETAILS  */
+
+.cards{
+    background-image: url("/assets/img/bg/grass.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.numbers{
+    padding: 0;
+}
+
+.poke-number{
+    margin:0 auto;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.2)
+}
+
+.next-pokemon{
+    height: 7rem;
+    align-content:center;
+    padding-top: 2.2rem;
+}
+
+.poke-name{
+    font-size: 2rem;
+    color: #fff;
+}
+
 /* BREAK POINTS */
 @media (min-width: 576px) {
     .circle {
