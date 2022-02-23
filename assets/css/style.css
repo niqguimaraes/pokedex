@@ -164,23 +164,23 @@ body {
     background-size: cover;
 }
 
-.numbers {
+.numbers{
     padding: 0;
 }
 
-.poke-number {
-    margin: 0 auto;
+.poke-number{
+    margin:0 auto;
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.2)
 }
 
-.next-pokemon {
+.next-pokemon{
     height: 7rem;
-    align-content: center;
+    align-content:center;
     padding-top: 2.2rem;
 }
 
-.poke-name {
+.poke-name{
     font-size: 2rem;
     color: #fff;
 }
