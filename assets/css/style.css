@@ -158,37 +158,60 @@ body {
 /* DETAILS  */
 
 .cards {
-    background-image: url("../img/bg/grass.png");
+    background: var(--bg-grass);
+    /*background-image: url("../img/bg/grass.png");*/
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 
-.numbers{
-    padding: 0;
+.cards-sub {
+    background: var(--grass);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.poke-number{
-    margin:0 auto;
-    font-size: 8rem;
+.meio-circulo {
+    background-color: #236C00;
+    height: 60px;
+    border-radius: 50% 50% 0 0;
+}
+
+.poke-number {
+    margin: 0 auto;
+    font-size: 7rem;
     color: rgba(255, 255, 255, 0.2)
 }
 
-.next-pokemon{
-    height: 7rem;
-    align-content:center;
+.next-pokemon {
+    height: 8rem;
+    align-content: center;
     padding-top: 2.2rem;
 }
 
-.poke-name{
+.poke-name {
     font-size: 2rem;
     color: #fff;
 }
 
+.poke-img {
+    right: 0;
+    top: 40px;
+}
+
 /* BREAK POINTS */
+@media (min-width: 450px) {
+    .poke-img {
+        top: 30px;
+    }
+}
+
 @media (min-width: 576px) {
     .circle {
         top: 60%;
+    }
+
+    .poke-img {
+        top: 40px;
     }
 }
 
@@ -196,18 +219,25 @@ body {
     .card {
         max-width: 49%;
     }
+
+    .poke-img {
+        top: 0;
+    }
 }
 
 @media (min-width: 992px) {
     .card {
         max-width: 32.5%;
     }
+
+    .poke-img {
+        max-height: 350px;
+    }
 }
 
 @media (min-width: 1200px) {}
 
 @media (min-width: 1400px) {}
-
 
 @media (max-width: 575.98px) {}
 
