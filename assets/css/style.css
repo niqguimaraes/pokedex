@@ -52,8 +52,7 @@
 
 body {
     min-width: 400px;
-    font-family:"Roboto", sans-serif;
-
+    font-family: "Roboto", sans-serif;
 }
 
 .search {
@@ -135,61 +134,31 @@ body {
 
 /* INDEX */
 
-.index{
-    background-image: var(--fire);
+.index {
+    background: var(--fire);
     background-repeat: no-repeat;
 }
 
-.logo{
-    width: 100%;
-    padding: 1rem;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin:0 auto;
-}
-
-.logo-img{
-    width: 60%;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.text{
+.text {
     word-break: break-word;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
     font-size: 1rem;
 }
 
-.logo-poke{
-    width: 50%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin:0 auto;
-}
-
-.circle{
-    width: 300%;
-    height: 200%;
-    left: -102%;
-    top: 48%;
+.circle {
+    width: 200%;
+    height: 100%;
+    left: -50%;
+    top: 65%;
     background-color: #fff;
-    border-radius: 50%;
-    z-index: 0;
-    position: fixed;
-  }
-
-.pokebola-img{
-    z-index: 1;
+    border-radius: 50% 50% 0 0;
 }
 
 /* DETAILS  */
 
-.cards{
-    background-image: url("/assets/img/bg/grass.png");
+.cards {
+    background-image: url("../img/bg/grass.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -216,9 +185,12 @@ body {
     color: #fff;
 }
 
-
 /* BREAK POINTS */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .circle {
+        top: 60%;
+    }
+}
 
 @media (min-width: 768px) {
     .card {
