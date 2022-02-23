@@ -52,6 +52,7 @@
 
 body {
     min-width: 400px;
+    font-family:"Roboto", sans-serif;
 }
 
 .search {
