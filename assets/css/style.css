@@ -52,7 +52,7 @@
 
 body {
     min-width: 400px;
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .search {
@@ -157,8 +157,8 @@ body {
 
 /* DETAILS  */
 
-.cards{
-    background-image: url("/assets/img/bg/grass.png");
+.cards {
+    background-image: url("../img/bg/grass.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
