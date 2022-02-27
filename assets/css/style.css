@@ -8,7 +8,7 @@
     --bg-dark-mode: #232323;
 
     /* Pokemon type colors */
-    --eletric: linear-gradient(180deg, #E7C200 0%, #CBAA00 100%);
+    --electric: linear-gradient(180deg, #E7C200 0%, #CBAA00 100%);
     --steel: linear-gradient(180deg, #89A6B2 0%, #6A818B 100%);
     --water: linear-gradient(180deg, #00B2FF 0%, #008CC6 100%);
     --dragon: linear-gradient(180deg, #FF6B00 0%, #B84D00 100%);
@@ -29,7 +29,7 @@
 
     /* Pokemon background type colors*/
     --bg-steel: linear-gradient(180deg, #B5C9D2 0%, #8A9EA7 100%);
-    --bg-eletric: linear-gradient(180deg, #F9E373 0%, #D6C158 100%);
+    --bg-electric: linear-gradient(180deg, #F9E373 0%, #D6C158 100%);
     --bg-water: linear-gradient(180deg, #6FD4FF 0%, #4DA4C8 100%);
     --bg-dragon: linear-gradient(180deg, #FFAE74 0%, #C68556 100%);
     --bg-fairy: linear-gradient(180deg, #FF83DC 0%, #FFCBF1 100%);
@@ -92,6 +92,61 @@ body {
     background: var(--bg-fire);
 }
 
+.card-water{
+    background: var(--bg-water);
+}
+
+.card-bug{
+    background: var(--bg-bug)
+}
+
+.card-normal {
+    background: var(--bg-normal)
+}
+
+.card-poison {
+    background: var(--bg-poison)
+}
+
+.card-electric{
+    background: var(--bg-electric)
+}
+
+.card-ground{
+    background: var(--bg-ground)
+}
+
+.card-fairy{
+    background: var(--bg-fairy)
+}
+
+.card-fighting{
+    background: var(--bg-fighting)
+}
+
+.card-psychic{
+    background: var(--bg-psychic)
+}
+
+.card-rock{
+    background: var(--bg-rock)
+}
+
+.card-steel{
+    background: var(--bg-steel)
+}
+
+.card-ice{
+    background: var(--bg-ice)
+}
+
+.card-ghost{
+    background: var(--bg-ghost)
+}
+
+.card-dragon{
+    background: var(--bg-dragon)
+}
 .card:before {
     content: '';
     display: block;
@@ -131,6 +186,71 @@ body {
 
 .btn-fire {
     background: var(--fire);
+}
+
+.btn-water {
+    background: var(--water)
+}
+
+.btn-bug{
+    background: var(--bug)
+}
+
+.btn-normal {
+    background: var(--normal)
+}
+
+.btn-flying{
+    background: var(--flying)
+}
+
+.btn-poison{
+    background: var(--poison)
+}
+
+.btn-electric{
+    background: var(--electric)
+}
+
+.btn-ground{
+    background: var(--ground)
+}
+
+.btn-fairy{
+    background: var(--fairy)
+}
+
+.btn-fighting{
+    background: var(--fighting)
+}
+
+.btn-psychic{
+    background: var(--psychic)
+}
+
+.btn-rock{
+    background: var(--rock)
+}
+
+.btn-steel{
+    background: var(--steel)
+}
+
+.btn-ice{
+    background: var(--ice)
+}
+
+.btn-ghost{
+    background: var(--ghost)
+}
+
+.btn-dragon{
+    background: var(--dragon)
+}
+
+.btn-undefined{
+    display: none;
+    opacity: 0;
 }
 
 /* INDEX */
@@ -217,6 +337,20 @@ body {
 }
 
 
+/* STATS */
+
+.stats{
+    color: #fff;
+}
+
+.poke-stats{
+    list-style: none;
+
+}
+
+.barra-progresso{
+    background-color: #fff;
+}
 /* BREAK POINTS */
 @media (min-width: 576px) {}
 
