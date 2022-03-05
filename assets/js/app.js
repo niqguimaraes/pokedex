@@ -1,10 +1,11 @@
 const getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 const generatePokemonPromises = () =>
   Array(151)
-    .fill()
-    .map((_, index) =>
-      fetch(getPokemonUrl(index + 1)).then(response => response.json())
-    )
+  .fill()
+  .map((_, index) =>
+    fetch(getPokemonUrl(index + 1))
+    .then(response => response.json())
+  )
 
 const fetchPokemon = () => {
   const pokemonPromises = generatePokemonPromises()
@@ -16,15 +17,15 @@ const fetchPokemon = () => {
   // }
 
   Promise.all(pokemonPromises).then(pokemons => {
-    console.log(pokemons)
+    //console.log(pokemons)
 
     const divPokemons = pokemons.reduce((accumulator, pokemon) => {
       const types = pokemon.types.map(typeInfo => typeInfo.type.name)
 
       accumulator += `
-      <div class="card card-${types[0]} p-1 mb-2">
-          <div class="p-2 d-flex align-items-center">
-            <div class="col d-flex flex-column">
+      <div class="card card-${types[0]} p-1 mb-2 ml-2">
+          <div class="p-2 d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-column col-7">
               <div>#00${pokemon.id}</div>
               <h4>${pokemon.name}</h4>
               <div class="btn btn-type btn-${types[0]}">
@@ -34,9 +35,9 @@ const fetchPokemon = () => {
                 <i class="fa-solid fa-skull-crossbones"></i> ${types[1]}
               </div>
             </div>
-            <div class="col d-flex">
+            <div class="d-flex justify-content-end">
               <img
-                class="img-fluid"
+                class="img-fluid w-50"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png"
               />
             </div>

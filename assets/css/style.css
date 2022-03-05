@@ -52,7 +52,7 @@
 
 body {
     min-width: 400px;
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -92,11 +92,11 @@ body {
     background: var(--bg-fire);
 }
 
-.card-water{
+.card-water {
     background: var(--bg-water);
 }
 
-.card-bug{
+.card-bug {
     background: var(--bg-bug)
 }
 
@@ -108,45 +108,46 @@ body {
     background: var(--bg-poison)
 }
 
-.card-electric{
+.card-electric {
     background: var(--bg-electric)
 }
 
-.card-ground{
+.card-ground {
     background: var(--bg-ground)
 }
 
-.card-fairy{
+.card-fairy {
     background: var(--bg-fairy)
 }
 
-.card-fighting{
+.card-fighting {
     background: var(--bg-fighting)
 }
 
-.card-psychic{
+.card-psychic {
     background: var(--bg-psychic)
 }
 
-.card-rock{
+.card-rock {
     background: var(--bg-rock)
 }
 
-.card-steel{
+.card-steel {
     background: var(--bg-steel)
 }
 
-.card-ice{
+.card-ice {
     background: var(--bg-ice)
 }
 
-.card-ghost{
+.card-ghost {
     background: var(--bg-ghost)
 }
 
-.card-dragon{
+.card-dragon {
     background: var(--bg-dragon)
 }
+
 .card:before {
     content: '';
     display: block;
@@ -192,7 +193,7 @@ body {
     background: var(--water)
 }
 
-.btn-bug{
+.btn-bug {
     background: var(--bug)
 }
 
@@ -200,169 +201,197 @@ body {
     background: var(--normal)
 }
 
-.btn-flying{
+.btn-flying {
     background: var(--flying)
 }
 
-.btn-poison{
+.btn-poison {
     background: var(--poison)
 }
 
-.btn-electric{
+.btn-electric {
     background: var(--electric)
 }
 
-.btn-ground{
+.btn-ground {
     background: var(--ground)
 }
 
-.btn-fairy{
+.btn-fairy {
     background: var(--fairy)
 }
 
-.btn-fighting{
+.btn-fighting {
     background: var(--fighting)
 }
 
-.btn-psychic{
+.btn-psychic {
     background: var(--psychic)
 }
 
-.btn-rock{
+.btn-rock {
     background: var(--rock)
 }
 
-.btn-steel{
+.btn-steel {
     background: var(--steel)
 }
 
-.btn-ice{
+.btn-ice {
     background: var(--ice)
 }
 
-.btn-ghost{
+.btn-ghost {
     background: var(--ghost)
 }
 
-.btn-dragon{
+.btn-dragon {
     background: var(--dragon)
 }
 
-.btn-undefined{
+.btn-undefined {
     display: none;
     opacity: 0;
 }
 
 /* INDEX */
 
-.index{
+.index {
     background-image: var(--fire);
     background-repeat: no-repeat;
 }
 
-.logo{
+.logo {
     width: 100%;
     padding: 1rem;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.logo-img{
+.logo-img {
     width: 60%;
     align-items: center;
     justify-content: center;
     padding: 1rem;
 }
 
-.text{
+.text {
     word-break: break-word;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
     font-size: 1rem;
 }
 
-.logo-poke{
+.logo-poke {
     width: 50%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.circle{
+.circle {
     width: 300%;
     height: 200%;
-    left: -102%;
+    left: -100%;
     top: 48%;
     background-color: #fff;
     border-radius: 50%;
     z-index: 0;
     position: fixed;
-  }
+}
 
-.pokebola-img{
+.pokebola-img {
     z-index: 1;
 }
 
 /* DETAILS  */
 
-.cards{
-    background-image: url("/assets/img/bg/grass.png");
+.cards {
+    background: var(--bg-grass);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.numbers{
+.cards-sub {
+    background: var(--grass);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meio-circulo {
+    background-color: #236C00;
+    height: 60px;
+    border-radius: 50% 50% 0 0;
+}
+
+.numbers {
     padding: 0;
 }
 
-.poke-number{
-    margin:0 auto;
+.poke-number {
+    margin: 0 auto;
     font-size: 8rem;
     color: rgba(255, 255, 255, 0.2)
 }
 
-.next-pokemon{
+.next-pokemon {
     height: 7rem;
-    align-content:center;
+    align-content: center;
     padding-top: 2.2rem;
 }
 
-.poke-name{
+.poke-name {
     font-size: 2rem;
     color: #fff;
 }
 
-
-/* STATS */
-
-.stats{
-    color: #fff;
+.poke-img {
+    right: 0;
+    top: 40px;
 }
 
-.poke-stats{
-    list-style: none;
-
-}
-
-.barra-progresso{
-    background-color: #fff;
-}
 /* BREAK POINTS */
-@media (min-width: 576px) {}
+@media (min-width: 450px) {
+    .poke-img {
+        max-height: 120%;
+        top: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .circle {
+        top: 60%;
+    }
+
+    .poke-img {
+        max-height: 120%;
+        top: 0;
+    }
+}
 
 @media (min-width: 768px) {
     .card {
-        max-width: 49%;
+        max-width: 48%;
+    }
+
+    .poke-img {
+        max-height: 140%;
+        top: -40px;
     }
 }
 
 @media (min-width: 992px) {
     .card {
-        max-width: 32.5%;
+        max-width: 32.3%;
+    }
+
+    .poke-img {
+        max-height: 140%;
+        top: -40px;
     }
 }
 
@@ -370,6 +399,12 @@ body {
 
 @media (min-width: 1400px) {}
 
+@media (max-width: 450.98px) {
+    .poke-img {
+        max-height: 100%;
+        top: 40px;
+    }
+}
 
 @media (max-width: 575.98px) {}
 
@@ -378,4 +413,3 @@ body {
 @media (max-width: 991.98px) {}
 
 @media (max-width: 1199.98px) {}
-
