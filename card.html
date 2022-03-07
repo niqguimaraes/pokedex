@@ -22,7 +22,7 @@
   <div class="container">
     <header class="pb-2 pt-3">
       <div class="position-relative">
-        <input class="form-control search" type="search" placeholder="Search..." />
+        <input id="searchbar" class="form-control search" type="search" placeholder="Search..." onkeyup="searchPokemon()" />
         <button class="search-btn border-0 position-absolute">
           <i class="fas fa-search"></i>
         </button>
@@ -30,7 +30,7 @@
     </header>
     <section class="d-flex flex-wrap justify-content-between">
       <!-- INÍCIO DO CARD -->
-      <div data-js="pokedex" class="d-flex flex-wrap"></div>
+      <div id="pokemon-card" data-js="pokedex" class="d-flex flex-wrap"></div>
       <!-- FINAL DO CARD -->
     </section>
   </div>
@@ -47,6 +47,7 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
   </script>
   <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/search-bar.js"></script>
 </body>
 
 </html>

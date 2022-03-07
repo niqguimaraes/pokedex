@@ -23,11 +23,11 @@ const fetchPokemon = () => {
       const types = pokemon.types.map(typeInfo => typeInfo.type.name)
 
       accumulator += `
-      <div class="card card-${types[0]} p-1 mb-2 ml-2">
+      <div id="pokemon" class="card card-${types[0]} p-1 mb-2 ml-2">
           <div class="p-2 d-flex align-items-center justify-content-between">
             <div class="d-flex flex-column col-7">
-              <div>#00${pokemon.id}</div>
-              <h4>${pokemon.name}</h4>
+              <div class="pokemon-id">#00${pokemon.id}</div>
+              <h4 class="pokemon-name">${pokemon.name}</h4>
               <div class="btn btn-type btn-${types[0]}">
                 <i class="fa-solid fa-leaf"></i> ${types[0]}
               </div>
