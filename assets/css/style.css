@@ -324,6 +324,13 @@ body {
     background-size: cover;
 }
 
+.meio-circulo-index {
+    background-color: #FFFFFF;
+    min-height: 60px;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+}
+
 .meio-circulo {
     background-color: #236C00;
     height: 60px;
