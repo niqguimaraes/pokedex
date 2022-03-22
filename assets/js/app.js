@@ -23,7 +23,8 @@ const fetchPokemon = () => {
       const types = pokemon.types.map(typeInfo => typeInfo.type.name)
 
       accumulator += `
-      <div id="pokemon" class="card card-${types[0]} p-1 mb-2 ml-2">
+      <a href="details.html?id=00${pokemon.id}" class="text-white">
+        <div id="pokemon" class="card card-${types[0]} p-1 mb-2 ml-2">
           <div class="p-2 d-flex align-items-center justify-content-between">
             <div class="d-flex flex-column col-7">
               <div class="pokemon-id">#00${pokemon.id}</div>
@@ -43,7 +44,9 @@ const fetchPokemon = () => {
             </div>
           </div>
         </div>
+      </a>
       `
+      console.log(window.location.search)
       return accumulator
     }, '')
 
@@ -52,5 +55,7 @@ const fetchPokemon = () => {
     div.innerHTML = divPokemons
   })
 }
+
+
 
 fetchPokemon()
