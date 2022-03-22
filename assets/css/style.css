@@ -56,6 +56,11 @@ body {
 
 }
 
+a,
+a:hover {
+    text-decoration: none;
+}
+
 .search {
     background-color: var(--bg-search);
     color: var(--search);
@@ -393,9 +398,9 @@ body {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .card {
-        max-width: 32.3%;
+        max-width: 310px;
     }
 
     .poke-img {
@@ -404,7 +409,11 @@ body {
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .card {
+        max-width: 360px;
+    }
+}
 
 @media (min-width: 1400px) {}
 
