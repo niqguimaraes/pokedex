@@ -19,11 +19,11 @@
   
 ## :arrow_forward: Next Steps :
  
-<h4>Develop Mobile Version</h4>
 :heavy_check_mark: Figma design creation<br>
 :heavy_check_mark: CSS styles for backgrounds and cards<br>
 :heavy_check_mark: Layout structure of Card page<br>
 :heavy_check_mark: Card page creation<br>
 :heavy_check_mark: Layout structure of Datails page<br>
-:black_square_button: Details page creation<br>
-:black_square_button: Create Dark mode view<br>
+:heavy_check_mark: Details page creation<br>
+:black_square_button: Create Dark mode view<br> 
+:black_square_button: Develop Mobile Version
