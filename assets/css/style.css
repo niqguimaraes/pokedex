@@ -277,6 +277,22 @@ a:hover {
     margin: 0 auto;
 }
 
+.animation{
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-25px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
 .logo-img {
     width: 60%;
     align-items: center;

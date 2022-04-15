@@ -10,12 +10,6 @@ const generatePokemonPromises = () =>
 const fetchPokemon = () => {
   const pokemonPromises = generatePokemonPromises()
 
-  // for (let i = 1; i <= 151; i++) {
-  //   pokemonPromises.push(
-  //     fetch(getPokemonUrl(i)).then(response => response.json())
-  //   )
-  // }
-
   Promise.all(pokemonPromises).then(pokemons => {
     //console.log(pokemons)
 
